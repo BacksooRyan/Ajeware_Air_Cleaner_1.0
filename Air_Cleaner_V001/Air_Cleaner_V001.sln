@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30413.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Air_Cleaner_V001", "Air_Cleaner_V001\Air_Cleaner_V001.vcxproj", "{C5F80730-F44F-4478-BDAE-6634EFC2CA88}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Adafruit-ST7735-Library-master-1.6.0", "Libraries\Adafruit-ST7735-Library-master\1.6.0\Adafruit-ST7735-Library-master\Adafruit-ST7735-Library-master-1.6.0.vcxitems", "{DFDC45F8-ADA2-40DA-A0CE-D62798066493}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Adafruit-GFX-Library-master-1.10.0", "Libraries\Adafruit-GFX-Library-master\1.10.0\Adafruit-GFX-Library-master\Adafruit-GFX-Library-master-1.10.0.vcxitems", "{2DEEEE52-30E3-44EE-BBEF-0B246BBF8C4F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DHT_sensor_library-1.3.10-1.3.10", "Libraries\DHT_sensor_library-1.3.10\1.3.10\DHT_sensor_library-1.3.10\DHT_sensor_library-1.3.10-1.3.10.vcxitems", "{E912ACFF-297F-4F3F-A128-A06ECDB19B9C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SoftwareSerial-1.0", "Libraries\SoftwareSerial\1.0\SoftwareSerial\SoftwareSerial-1.0.vcxitems", "{34C220B1-733E-4859-9F08-4A742AD9FFCD}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		Libraries\Adafruit-GFX-Library-master\1.10.0\Adafruit-GFX-Library-master\Adafruit-GFX-Library-master-1.10.0.vcxitems*{2deeee52-30e3-44ee-bbef-0b246bbf8c4f}*SharedItemsImports = 9
+		Libraries\SoftwareSerial\1.0\SoftwareSerial\SoftwareSerial-1.0.vcxitems*{34c220b1-733e-4859-9f08-4a742ad9ffcd}*SharedItemsImports = 9
+		Libraries\Adafruit-GFX-Library-master\1.10.0\Adafruit-GFX-Library-master\Adafruit-GFX-Library-master-1.10.0.vcxitems*{c5f80730-f44f-4478-bdae-6634efc2ca88}*SharedItemsImports = 4
+		Libraries\Adafruit-ST7735-Library-master\1.6.0\Adafruit-ST7735-Library-master\Adafruit-ST7735-Library-master-1.6.0.vcxitems*{c5f80730-f44f-4478-bdae-6634efc2ca88}*SharedItemsImports = 4
+		Libraries\DHT_sensor_library-1.3.10\1.3.10\DHT_sensor_library-1.3.10\DHT_sensor_library-1.3.10-1.3.10.vcxitems*{c5f80730-f44f-4478-bdae-6634efc2ca88}*SharedItemsImports = 4
+		Libraries\SoftwareSerial\1.0\SoftwareSerial\SoftwareSerial-1.0.vcxitems*{c5f80730-f44f-4478-bdae-6634efc2ca88}*SharedItemsImports = 4
+		Libraries\Adafruit-ST7735-Library-master\1.6.0\Adafruit-ST7735-Library-master\Adafruit-ST7735-Library-master-1.6.0.vcxitems*{dfdc45f8-ada2-40da-a0ce-d62798066493}*SharedItemsImports = 9
+		Libraries\DHT_sensor_library-1.3.10\1.3.10\DHT_sensor_library-1.3.10\DHT_sensor_library-1.3.10-1.3.10.vcxitems*{e912acff-297f-4f3f-a128-a06ecdb19b9c}*SharedItemsImports = 9
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C5F80730-F44F-4478-BDAE-6634EFC2CA88}.Debug|x86.ActiveCfg = Debug|Win32
+		{C5F80730-F44F-4478-BDAE-6634EFC2CA88}.Debug|x86.Build.0 = Debug|Win32
+		{C5F80730-F44F-4478-BDAE-6634EFC2CA88}.Release|x86.ActiveCfg = Release|Win32
+		{C5F80730-F44F-4478-BDAE-6634EFC2CA88}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0F6D5DE4-6A9E-4AC9-9628-3A9D75C86D8C}
+	EndGlobalSection
+EndGlobal
